@@ -45,6 +45,7 @@ def check_win(board, turn):
             if board[row][col] != turn: 
                 win = False
                 break
+            
         if win:  # Fixed: added return statement
             return True
     return False  # Fixed: added return False if no win
