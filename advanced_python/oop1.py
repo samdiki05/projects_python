@@ -5,9 +5,6 @@ d1 = ["Designer", "Philipp"]
 # class
 
 
-
-
-
 class SoftwareEngineer:
 
     alias = "Keyboard Magician"
@@ -42,14 +39,12 @@ class SoftwareEngineer:
         if age < 30:
             return 7000
         return 9000
-    
 
     
 #imstance:
 se1 = SoftwareEngineer(" Max", 20, "Junoir", 500)
 se2 = SoftwareEngineer(" Lisa", 24, "Senoir", 700)
 se3 = SoftwareEngineer(" Lisa", 24, "Senoir", 700)
-
 
 #se1 = SoftwareEngineer(" Max", 20, "Junoir", 500)
 #print(se1.name, se1.age)
@@ -69,4 +64,5 @@ print(SoftwareEngineer.entry_salary(27))
 # create a instance(object)
 # class vs instance
 # instance attributes: defined in __int__(self)
+
 # class attributes
