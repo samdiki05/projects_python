@@ -42,7 +42,7 @@ for question in random_questions:
 
     print("-----------------")
 
-completed_time = time.time() -  start_time 
+completed_time = time.time() - start_time 
 print("Summary")
 print("Total Questions: ", total_questions)
 print("Correct Answers:", correct)
